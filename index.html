@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muro Especial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌟 Mi Muro Especial 🌟</h1>
+        <p>Sube tus fotos y videos favoritos, y deja tu huella en este muro. </p>
+
+        <div class="upload-container">
+            <input type="file" id="fileInput" accept="image/*,video/*">
+            <button onclick="uploadFile()">Subir</button>
+        </div>
+
+        <div id="mediaWall" class="media-wall"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
